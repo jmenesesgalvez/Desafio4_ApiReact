@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import './App.css';
 import { MusiCards } from './component/MusiCards';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -13,7 +13,7 @@ function App() {
   async function handleSearch(e) {
     if (!search) {
       e.preventDefault();
-      alert('You have to type something :)');
+      alert('Ingresa tu cancion Favorita !!');
     } else {
       e.preventDefault();
       const data = await MiApi(search);

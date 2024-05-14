@@ -6,7 +6,7 @@ import { Form, Button } from 'react-bootstrap';
 function Busqueda({ handleSearch, setSearch }) {
     return (
       <form className="custom-container" onSubmit={handleSearch}>
-        <h1>ENCUENTRA TU ARTISTA FAVORITO</h1>
+        <h1>BUSCA TU ARTISTA & CANCION FAVORITA</h1>
         
         <Form.Control
           type="text"
@@ -14,7 +14,7 @@ function Busqueda({ handleSearch, setSearch }) {
           placeholder="Search ... "
           onChange={(e) => setSearch(e.target.value)}
         />
-        <Button variant="danger">Success</Button>
+        <Button variant="danger">Buscar</Button>
       </form>
     );
   }

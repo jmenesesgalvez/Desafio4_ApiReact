@@ -1,12 +1,21 @@
 import React from 'react'
 import '../style/musicard.css';
-import { useState, useEffect } from 'react'
+
 
 export const MusiCards = ({secondSearch}) => {
-  // console.log(secondSearch)
-  // const [artists] = secondSearch;
-  // song.data[artists]
-  // console.log(artists.data.albumOfTrack.coverArt.sources[0].url)
+
+  secondSearch.sort((a, b) => {
+    const nameA = a.data.name.toUpperCase(); 
+    const nameB = b.data.name.toUpperCase();
+    if (nameA < nameB) {
+      return -1;
+    }
+    if (nameA > nameB) {
+      return 1;
+    }
+    return 0;
+  });
+
     return (
     <div className='container'>
       {secondSearch.map((song,i) => (
