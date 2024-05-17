@@ -1,8 +1,8 @@
-# React + Vite
+# Desafio 4 - REACT 1
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+API / REACT - SPOTIFY
 
-Currently, two official plugins are available:
+## Video de Demostración
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+En este link puedes ver el video de demostracion  [aquí](https://youtu.be/t2b5bhXgfN0).
+

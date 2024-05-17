@@ -11,7 +11,7 @@ function Busqueda({ handleSearch, setSearch }) {
         <Form.Control
           type="text"
           className="mb-3"
-          placeholder="Search ... "
+          placeholder="Ingresa tu Busqueda ... "
           onChange={(e) => setSearch(e.target.value)}
         />
         <Button variant="danger">Buscar</Button>

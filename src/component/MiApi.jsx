@@ -8,7 +8,7 @@
   
   async function MiApi(search) {
     try {
-      let url = `https://spotify23.p.rapidapi.com/search/?q=${search}&type=tracks&offset=0&limit=20&numberOfTopResults=5`
+      let url = `https://spotify23.p.rapidapi.com/search/?q=${search}&type=tracks&offset=0&limit=10&numberOfTopResults=5`
       let res = await fetch(url, options)
       let data = await res.json();
       return data.tracks.items;
