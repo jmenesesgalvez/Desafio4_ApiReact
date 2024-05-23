@@ -1,7 +1,7 @@
  const options = {
     method: 'GET',
     headers: {
-      'X-RapidAPI-Key': '6d43daf606msh5e519f4689a8d04p1863d1jsne033c52d5166',
+      'X-RapidAPI-Key': '2133068922mshe816a0a83c27addp190f81jsnf76c4d355806',
       'X-RapidAPI-Host': 'spotify23.p.rapidapi.com'
     }
   };
@@ -13,7 +13,7 @@
       let data = await res.json();
       return data.tracks.items;
     } catch (error) {
-      console.log(`Tienes un error: ${error}`)
+      console.log(`Tienes un error, realiza la busqueda nuevamente: ${error}`)
       return [];
    }
   } 
